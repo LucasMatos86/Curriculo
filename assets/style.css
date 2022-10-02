@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to bottom, #ffffff, #2f4f4f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 16px;
+  }
+  
+  .firstDiv {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    min-width: 97%;
+    background: #ffffffff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0px 10px 25px #333;
+    margin: 2%;
+  }
+  
+  .firstDiv .leftSide {
+    background: #0a64ca;
+    padding: 30px;
+    
+  }
+  
+  .firstDiv .rightSide {
+    background: #ffffff;
+    padding: 30px;
+  }
+  
+  .perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ffffff;
+  }
+  
+  .perfil h1 {
+    font-size: 30px;
+    margin-top: 13px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  .perfil .btn {
+    margin-top: 13px;
+    padding: 8px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #14e7ba;
+    border: 1px solid #343a40;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .perfil .btn:hover {
+    background: #2f4f4f;
+  }
+  
+  .leftItems {
+    margin-top: 10%;
+    color: #ffffff;
+  }
+  
+  .leftItems .title {
+    padding-bottom: 8px;
+  }
+  
+  .rightItems {
+    margin-top: 32px;
+    font-weight: 600;
+    color: #2f4f4f;
+  }
+  
+  .rightItems .title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .skills {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    margin: 30px 0;
+  }
+  
+  .skills .porcent {
+    width: 90%;
+    height: 20px;
+    margin: 30px 0;
+    background: #dadada;
+  }
+
+  
+  .skills .porcent div {
+    width: 100%;
+    height: 20px;
+    background: #10ff08;
+  }
+  
+  .rightItems .imgRedes img {
+    width: 6%;
+    cursor: pointer;
+    width: 10%;
+  }
